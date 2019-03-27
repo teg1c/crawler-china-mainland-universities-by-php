@@ -1,0 +1,5 @@
+{
+    "require": {
+        "playm3u8/whttp": "^3.0"
+    }
+}

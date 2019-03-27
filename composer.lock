@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8f45c1bd8a8df3450ad711c9796b4e08",
+    "packages": [
+        {
+            "name": "playm3u8/whttp",
+            "version": "v3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/playm3u8/whttp.git",
+                "reference": "5ac0c655e60a5680d6fddd00a42f42c44f9ca1db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/playm3u8/whttp/zipball/5ac0c655e60a5680d6fddd00a42f42c44f9ca1db",
+                "reference": "5ac0c655e60a5680d6fddd00a42f42c44f9ca1db",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PL\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "playm3u8",
+                    "email": "3385168058@qq.com"
+                }
+            ],
+            "description": "PHP非阻塞并发HTTP请求类(采集爬虫专用)",
+            "time": "2019-03-20T02:42:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
